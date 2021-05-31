@@ -1,5 +1,5 @@
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
 
 /* VARIABLES */
 :root {
@@ -20,7 +20,7 @@
 
     /* FONTS */
 
-    --body-font: 'Poppins', sans-serif;
+    --body-font: 'Fira Sans', sans-serif;
 
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
@@ -33,6 +33,7 @@
     /* FONT WEIGHT */
     --font-medium: 500;
     --font-semi-bold: 600;
+    --font-bold: 700;
 
     /* BOTTOM MARGINS */
     --mb-0-25: .25rem;
@@ -250,10 +251,57 @@
 
     .home__blob {
         width: 360px;
-        fill: var(--first-color);
+        fill: var(--first-color-second);
     }
 
     .home__blob-img {
         width: 150px;
         height: 180px;
+    }
+
+    .home__data {
+        grid-column: 1/3;
+    }
+
+    .home__title {
+        font-size: var(--big-font-size);
+        font-weight: var(--font-bold);
+    }
+
+    .home__subtitle {
+        font-size: var(--h3-font-size);
+        color: var(--text-color);
+        font-weight: var(--font-medium);
+        margin-bottom: var(--mb-0-75);
+    }
+
+    .home__description {
+        margin-bottom: var(--mb-2)
+    }
+
+    .home__scroll {
+
+    }
+
+    .home__scroll-button{
+        color: var(--first-color);
+        transition: 3s;
+    }
+
+    .home__scroll-button:hover {
+        transform: translateY(.25rem);
+    }
+
+    .home__scroll-mouse {
+        font-size: 2rem; 
+    }
+
+    .home__scroll-name {
+        font-size: var(--small-font-size);
+        color: var(--title-color);
+        font-weight: var(--font-medium);
+    }
+
+    .home__scroll-arrow {
+        font-size: 1.25rem;
     }
