@@ -247,3 +247,13 @@
     .home__social-icon:hover{
         color: var(--first-color-alt);
     }
+
+    .home__blob {
+        width: 360px;
+        fill: var(--first-color);
+    }
+
+    .home__blob-img {
+        width: 150px;
+        height: 180px;
+    }
