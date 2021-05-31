@@ -39,6 +39,7 @@
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
     --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
     --mb-2: 2rem;
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
@@ -116,4 +117,16 @@
     .section__title,
     .section__subtitle {
         text-align: center;
+    }
+
+    /* LAYOUT */
+    .container {
+        max-width: 768px;
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+
+    .grid {
+        display: grid;
+        gap: 1.5rem;
     }
