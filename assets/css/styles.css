@@ -223,7 +223,7 @@
         bottom: 0;
     }
 
-    /* HOME PAGE */
+    /* HOME*/
     .home__container {
         gap: 1rem;
     }
@@ -330,4 +330,11 @@
         align-items: center;
     }
 
-    
+    /* ABOUT */
+
+    .about__img {
+        width: 200px;
+        border-radius: .5rem;
+        justify-self: center;
+        align-self: center;
+    }
