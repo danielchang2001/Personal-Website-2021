@@ -255,7 +255,7 @@
     }
 
     .home__blob-img {
-        width: 150px;
+        width: 180px;
         height: 180px;
     }
 
@@ -329,3 +329,5 @@
         display: inline-flex;
         align-items: center;
     }
+
+    
