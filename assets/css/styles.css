@@ -606,7 +606,7 @@
 
 /* ====================== MEDIA QUERIES ====================== */
 /* Small devices */
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 350px) {
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -632,7 +632,19 @@
         margin-left: 20px;
     }
 }
+@media screen and (min-width: 351px) {
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+    .home__content {
+        margin-left: 37px;
+    }
 
+    .home__blob {
+        width: 280px;
+    }
+}
 /* Medium devices */
 @media screen and (min-width: 568px) {
     .home__content {
@@ -716,10 +728,6 @@
         width: 400px;
     }
 
-    .home__scroll {
-        display: block;
-    }
-
     .about__container {
         column-gap: 5rem;
     }
@@ -785,3 +793,19 @@
 }
 
 /* Large devices */
+@media screen and (min-width: 1024px) {
+    .header,
+    .main,
+    .footer__container {
+        padding: 0;
+    }
+
+    .home__blob {
+        width: 500px;
+    }
+    .home__social {
+        margin-left:50px;
+    }
+
+
+}
