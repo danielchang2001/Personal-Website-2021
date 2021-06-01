@@ -391,7 +391,7 @@
     }
 
     .title__icon {
-        color: var(--text-color);
+        color: var(--first-color-alt);
         font-size: var(--big-font-size);
     }
 
