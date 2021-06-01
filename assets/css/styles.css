@@ -478,3 +478,30 @@
 }
 
 /* ====================== PROJECTS ====================== */
+
+.project__container {
+    overflow: initial;
+}
+
+.project__content {
+    padding: 0 1.5rem;
+}
+
+.project__img {
+    width: 265px;
+    border-radius: .4rem;
+    justify-self: center;
+}
+
+.project__title {
+    font-size: var(--h3-font-size);
+    margin-bottom:  var(--mb-0-5);
+}
+
+.project__description {
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__button:hover .button__icon {
+    transform: rotate(15deg);
+}
