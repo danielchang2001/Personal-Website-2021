@@ -27,5 +27,23 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 // Skills Variables
+const skillsContent = document.getElementsByClassName('skills__content'),
+skillsHeader = document.querySelectorAll('.skills__header')
 
-// Skills Open
+// Skills Open/Close
+function toggleSkills(){
+    let itemClass = this.parentNode.className
+    // This loop closes all skills__content divs.
+    for(i = 0; i < skillsContent.length; i++) {
+        skillsContent[i].className = 'skills__content skills__close'    
+    }
+    // If the parent div of the Skills header we clicked on is closed, we apply the open class tag to the parent div.
+    if (itemClass === 'skills__content skills__close') {
+        this.parentNode.className = 'skills__content skills__open'
+    }
+}
+
+// Runs toggle function whenever a skills header is clicked.
+skillsHeader.forEach((el) => {
+    el.addEventListener('click', toggleSkills)
+})
