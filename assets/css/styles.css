@@ -479,6 +479,7 @@
 
 /* ====================== PROJECTS ====================== */
 
+
 .project__container {
     overflow: initial;
 }
@@ -502,6 +503,13 @@
     margin-bottom: var(--mb-0-75);
 }
 
+.project__data {
+    margin-bottom: 30px;
+    width: 265px;
+    justify-self: center;
+}
+
 .project__button:hover .button__icon {
     transform: rotate(15deg);
 }
+
