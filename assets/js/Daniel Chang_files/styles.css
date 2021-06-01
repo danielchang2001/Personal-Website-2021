@@ -238,7 +238,6 @@
     }
 
     .home__social {
-        margin-left: -50px;
         display: grid;
         grid-template-columns: max-content;
         row-gap: 1rem;
@@ -586,7 +585,7 @@
     color: var(--first-color-lighter);
 }
 
-.footer__copy { 
+.footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
     margin-top: var(--mb-3);
@@ -598,28 +597,4 @@
 .footer__social,
 .footer__copy {
     color: #FFF;
-}
-
-/* ====================== MEDIA QUERIES ====================== */
-/* Small devices */
-@media screen and (max-width: 350px) {
-    .container {
-        margin-left: var(--mb-1);
-        margin-right: var(--mb-1);
-    }
-
-    .nav__menu {
-        padding: 2rem .25rem 4rem;
-    }
-    .nav__list {
-        column-gap: 0;
-    }
-
-    .home__content {
-        grid-template-columns: .25fr 3fr;
-    }
-
-    .home__blob {
-        
-    }
 }
