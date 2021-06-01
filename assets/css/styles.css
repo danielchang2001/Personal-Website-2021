@@ -606,7 +606,7 @@
 
 /* ====================== MEDIA QUERIES ====================== */
 /* Small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 567px) {
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -634,3 +634,26 @@
 }
 
 /* Medium devices */
+@media screen and (min-width: 568px) {
+    .home__content {
+        grid-template-columns: max-content 1fr 1fr;
+    }
+    .home__data {
+        grid-column: initial;
+        margin-right: 90px;
+        width: 100%;
+    }
+    .home__img {
+        margin-left: -35px;
+        order: 1;
+        justify-self: center;
+    }
+
+    .home__social {
+        margin-left: 23px;
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
