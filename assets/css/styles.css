@@ -398,7 +398,17 @@
 /* ====================== SKILLS ====================== */
 
 .skills__data {
+    background: lightgray;
+    border: 2px solid var(--title-color);
+    line-height: 30px;
+    border-radius: 10px;
     margin-bottom: var(--mb-1);
+}
+
+.skills__data:hover {
+    transform: scale(1.02);
+    transition: .05s;
+    cursor: pointer;
 }
 
 .skills__container {
@@ -408,7 +418,7 @@
 .skills__header {
     display: flex;
     align-items: center;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1-5);
     cursor: pointer;
 }
 
@@ -432,14 +442,20 @@
 }
 
 .skills__titles {
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: var(--mb-0-5);
 }
 
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+}
+
+.skills__number {
+    font-size: var(--normal-font-size);
+    color: var(--first-color-alt);
 }
 
 .skills__list {
