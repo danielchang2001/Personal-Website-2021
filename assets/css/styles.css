@@ -5,7 +5,7 @@
 :root {
     --header-height: 3rem;
 
-    --hue-color: 250;
+    --hue-color: 210;
 
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -638,7 +638,7 @@
         margin-right: var(--mb-1);
     }
     .home__content {
-        margin-left: 37px;
+        margin-left: 20px;
     }
 
     .home__blob {
