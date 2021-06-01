@@ -231,6 +231,10 @@
         gap: 1rem;
     }
 
+    .home__img {
+        margin-left: -12px;
+    }
+
     .home__content {
         grid-template-columns: .5fr 3fr;
         padding-top: 3.5rem;
@@ -620,6 +624,13 @@
     }
 
     .home__blob {
-        
+        width: 180px;
+    }
+
+    .home__img,
+    .home__social {
+        margin-left: 20px;
     }
 }
+
+/* Medium devices */
