@@ -482,6 +482,7 @@
 
 .project__container {
     overflow: initial;
+
 }
 
 .project__content {
@@ -511,5 +512,30 @@
 
 .project__button:hover .button__icon {
     transform: rotate(15deg);
+}
+
+/* ====================== CONTACT ====================== */
+.contact__container {
+    row-gap: 3rem;
+}
+
+.contact__information {
+    display: flex;
+    margin-bottom: var(--mb-2);
+}
+
+.contact__icon {
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+}
+
+.contact__title {
+    font-size: var(--h3-font-size);
+}
+
+.contact__subtitle {
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
 }
 
