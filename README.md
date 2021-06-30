@@ -5,4 +5,4 @@ My updated portfolio website.
 ## Description
 
 Developed with HTML and JavaScript. Styled with CSS.
-![Link to Website](https://danielchangcreations.me/)
+Link to website: https://danielchangcreations.me/
