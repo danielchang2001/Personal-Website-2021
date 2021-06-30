@@ -1,6 +1,6 @@
 # Personal-Website-2021
 
-My personal portfolio website.
+My updated portfolio website.
 
 ## Description
 
