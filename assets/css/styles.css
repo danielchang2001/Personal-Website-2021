@@ -374,7 +374,7 @@
     }
 
     .about__info-name {
-        font-size: var(--smaller-font-size);
+        font-size: var(--medium-font-size);
         margin-bottom: var(--mb-1-5);
     }
 
