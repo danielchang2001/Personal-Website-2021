@@ -1,5 +1,8 @@
 # Personal-Website-2021
 
-A portfolio that I created using HTML, CSS, and JS. The website is optimized for mobile devices as well.
+My updated portfolio website.
 
-Check out the website here: https://danielchangcreations.me/
+## Description
+
+* Developed with HTML and JavaScript. Styled with CSS.
+* Link to website: https://danielchangcreations.me/
