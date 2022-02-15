@@ -233,6 +233,7 @@ img {
 /* ====================== HOME ====================== */
 .homeDiv {
   overflow: hidden;
+  padding-left: 13px;
 }
 
 .home__container {
