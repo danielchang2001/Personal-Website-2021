@@ -332,20 +332,30 @@ img {
 
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: #8a8a8a;
   color: #fff;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
 }
 
+.buttonRed {
+  background-color: #8a8a8a;
+}
+
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: #5095ef;
+}
+
+.buttonRed:hover {
+  background-color: #ec0000;
 }
 
 .button__icon {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
+  font-weight: bold;
   margin-left: var(--mb-0-5);
+  margin-bottom: 2.74px;
   transition: 0.3s;
 }
 

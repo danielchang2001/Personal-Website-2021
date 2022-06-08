@@ -31,14 +31,15 @@
                             <i class="uil uil-user nav__icon"></i> About
                         </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i> Skills
-                        </a>
-                    </li>
+
                     <li class="nav__item">
                         <a href="#projects" class="nav__link">
                             <i class="uil uil-brackets-curly nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
                         </a>
                     </li>
                     <li class="nav__item">
@@ -112,9 +113,12 @@
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" href="assets/docx/Daniel_Chang_Resume_2022_01.docx" class="button button--flex">
-                                Resume <i class="uil uil-file-download button__icon"></i>
-                            </a>
+                            <div style="cursor: pointer" class="button button--flex">
+                                Resume (WIP) <i class="uil uil-file-download button__icon"></i>
+                            </div>
+                            <!-- <a download="" href="assets/docx/Daniel_Chang_Resume_2022_01.docx" class="button button--flex"> -->
+                                <!-- Resume <i class="uil uil-file-download button__icon"></i> -->
+                            <!-- </a> -->
                         </div>
                         
                     </div>
@@ -138,9 +142,9 @@
 
                         <div class="project__data">
                             <h3 class="project__title">Frog Frenzy (2022)</h3>
-                            <p class="project__description">"Final" lab for CSE 100, Logic Design at UCSC. Designed and implemented a 2D game in Verilog using the Basys3 FPGA.
+                            <p class="project__description">Final lab for CSE 100, Logic Design at UCSC. Designed and implemented a 2D game in Verilog using the Basys3 FPGA.
                             </p>
-                            <a href="https://www.youtube.com/watch?v=QPICsetUuQk" target="_blank" class="button button--flex button--small project__button">
+                            <a href="https://www.youtube.com/watch?v=QPICsetUuQk" target="_blank" class="button buttonRed button--flex button--small project__button">
                                 YouTube
                                 <i class="uil uil-external-link-alt button__icon"></i>
                             </a>
@@ -152,7 +156,7 @@
 
                         <div class="project__data">
                             <h3 class="project__title">Portfolio (2021-2022)</h3>
-                            <p class="project__description">Created the current website. Used HTML, CSS, some JavaScript, Adobe Illustrator, and Photoshop.
+                            <p class="project__description">Created this current website. Used HTML5, CSS3, some JavaScript, Adobe Illustrator, and Photoshop.
                             </p>
                             <a href="https://github.com/danielchang2001/Personal-Website-2021" target="_blank" class="button button--flex button--small project__button">
                                 GitHub
@@ -165,8 +169,8 @@
                         <img src="assets/img/findlyrics.gif" alt="" class="project__img">
 
                         <div class="project__data">
-                            <h3 class="project__title">Spotify Lyrics</h3>
-                            <p class="project__description">Search for and choose music. Displays song lyrics. Used React, Node, Spotify API, Web Playback library, Bootstrap.</p>
+                            <h3 class="project__title">Spotify Lyrics (2021)</h3>
+                            <p class="project__description">Searches and displays lyrics for songs on Spotify. Used React, Node, Spotify API, Web Playback, Bootstrap.</p>
                             <a href="https://github.com/danielchang2001/Spotify-Lyrics" target="_blank" class="button button--flex button--small project__button">
                                 GitHub
                                 <i class="uil uil-external-link-alt button__icon"></i>
@@ -175,11 +179,11 @@
                     </div>
                     <!-- MoodTrack -->
                     <div class="project__content grid">
-                        <img src="assets/img/project2.jpg" alt="" class="project__img">
+                        <img src="assets/img/projectMood.jpg" alt="" class="project__img">
 
                         <div class="project__data">
-                            <h3 class="project__title">Spotify Mood Track</h3>  
-                            <p class="project__description">Grabs “happiness level" data from songs in a Spotify user’s playlists. Returns a graph displaying change in data over a span of 5 years.</p>
+                            <h3 class="project__title">Spotify Scraper (2021)</h3>  
+                            <p class="project__description">Grabs audio analysis data from songs in playlists using Python. Tracks "happiness levels" over a span of 5 yrs.</p>
                             <a href="https://github.com/danielchang2001/MoodTrack" target="_blank" class="button button--flex button--small project__button">
                                 GitHub
                                 <i class="uil uil-external-link-alt button__icon"></i>
@@ -437,7 +441,7 @@
                     </div>
                 </div>
 
-                <p class="footer__copy">Copyright © 2021 Daniel Chang</p>
+                <p class="footer__copy">Copyright © 2022 Daniel Chang</p>
             </div>
         </footer>
     </main>
