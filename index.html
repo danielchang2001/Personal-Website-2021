@@ -71,7 +71,7 @@
                                 </mask>
                                 <g mask="url(#mask0)">
                                   <path fill="#000000" d="M22.3,-41.3C32.5,-32.6,47,-34.1,53.4,-28.9C59.9,-23.7,58.1,-11.8,54.7,-2C51.3,7.9,46.1,15.8,44.1,28.6C42.1,41.4,43.2,59.1,36.4,62.4C29.6,65.7,14.8,54.6,0.4,53.9C-14,53.2,-28,63,-36.4,60.6C-44.8,58.2,-47.6,43.7,-54.6,31.6C-61.5,19.4,-72.6,9.7,-76.1,-2C-79.6,-13.7,-75.4,-27.5,-65.2,-33.9C-55,-40.3,-38.6,-39.4,-26.7,-47.2C-14.8,-54.9,-7.4,-71.3,-0.7,-70.1C6,-68.9,12,-50,22.3,-41.3Z" transform="translate(100 100)" />
-                                  <image class="home__blob-img" href="assets/img/daniel3.jpg"/>
+                                  <image class="home__blob-img" href="assets/img/daniel3_1.jpg"/>
                                 </g>
                               </svg>
                         </div>
@@ -85,7 +85,7 @@
                         </div>
     
                         <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Daniel.</h1>
+                            <h1 class="home__title">Hi, I'm Daniel</h1>
                             <!-- <h3 class="home__subtitle">20 Years Old</h3>
                             <p class="home__description">Welcome to my website!</p> -->
                             <!-- <a href="#contact" class="button button--flex">
@@ -100,14 +100,14 @@
         <!-- ABOUT -->
         <section class="about section" id="about">
             <h2 class="section__title">
-                <i class="uil uil-user title__icon"></i> <br>About Me
+                <i class="uil uil-user title__icon"></i> <br>About
             </h2>
             <div class="about__container container grid">
                 <div class="about__double">
                     <img src="assets/img/about.png" alt="" class="about__img">
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">Web CMS Developer</span>
+                            <span class="about__info-title">Student/Part-Time Web Dev</span>
                             <span class="about__info-name">at University of California, Santa Cruz</span>
                         </div>
 
@@ -121,11 +121,75 @@
                 </div>
                 
                 <div class="about__data">
-                    <p class="about__description">I am currently a Website Developer for UCSC Humanities Computing. My main goal at work is to maintain various CMS websites for the division. I work with databases, PHP source code, and front end design tools like WordPress, Omeka, and more. Previously I worked as a Website Designer for UCSC Risk Services, creating graphics in Photoshop and styling information in HTML & CSS. I am always trying to learn more and expand my skill set in the vast world of web development.
+                    <p class="about__description">I am currently a fourth year Computer Engineering student with a focus in Systems Programming and a part time website developer at UCSC. My favorite classes so far have been Data Structures and Algorithms, Operating Systems, and Digital Logic Design. At work I help UCSC faculty and staff build personal and administrative websites. I am familiar working with WCMSs like WordPress and other basic front-end tools like HTML and CSS. I also do some back-end work like migrating website content from one virtual machine to another or writing PHP code. 
                     </p>
                 </div>
             </div>
         </section>
+
+        <!-- PROJECTS -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title"><i class="uil uil-brackets-curly title__icon"></i><br>Projects</h2>
+            <div class="project__container container">
+                <div>
+                    <!-- Website -->
+                    <div class="project__content grid">
+                        <img src="assets/img/project0.jpg" alt="" class="project__img">
+
+                        <div class="project__data">
+                            <h3 class="project__title">Frog Frenzy (2022)</h3>
+                            <p class="project__description">"Final" lab for CSE 100, Logic Design at UCSC. Designed and implemented a 2D game in Verilog using the Basys3 FPGA.
+                            </p>
+                            <a href="https://www.youtube.com/watch?v=QPICsetUuQk" target="_blank" class="button button--flex button--small project__button">
+                                YouTube
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Website -->
+                    <div class="project__content grid">
+                        <img src="assets/img/project1.jpg" alt="" class="project__img">
+
+                        <div class="project__data">
+                            <h3 class="project__title">Portfolio (2021-2022)</h3>
+                            <p class="project__description">Created the current website. Used HTML, CSS, some JavaScript, Adobe Illustrator, and Photoshop.
+                            </p>
+                            <a href="https://github.com/danielchang2001/Personal-Website-2021" target="_blank" class="button button--flex button--small project__button">
+                                GitHub
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Spotify Lyrics -->
+                    <div class="project__content grid">
+                        <img src="assets/img/findlyrics.gif" alt="" class="project__img">
+
+                        <div class="project__data">
+                            <h3 class="project__title">Spotify Lyrics</h3>
+                            <p class="project__description">Search for and choose music. Displays song lyrics. Used React, Node, Spotify API, Web Playback library, Bootstrap.</p>
+                            <a href="https://github.com/danielchang2001/Spotify-Lyrics" target="_blank" class="button button--flex button--small project__button">
+                                GitHub
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- MoodTrack -->
+                    <div class="project__content grid">
+                        <img src="assets/img/project2.jpg" alt="" class="project__img">
+
+                        <div class="project__data">
+                            <h3 class="project__title">Spotify Mood Track</h3>  
+                            <p class="project__description">Grabs “happiness level" data from songs in a Spotify user’s playlists. Returns a graph displaying change in data over a span of 5 years.</p>
+                            <a href="https://github.com/danielchang2001/MoodTrack" target="_blank" class="button button--flex button--small project__button">
+                                GitHub
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
         <!-- SKILLS -->
         <section class="skills section" id="skills">
             <h2 class="section__title"><i class="uil uil-file-alt title__icon"></i> <br>Skills</h2>
@@ -309,54 +373,6 @@
             </div>
         </section>
 
-        <!-- PROJECTS -->
-        <section class="projects section" id="projects">
-            <h2 class="section__title"><i class="uil uil-brackets-curly title__icon"></i><br>Projects</h2>
-            <div class="project__container container">
-                <div>
-                    <!-- Website -->
-                    <div class="project__content grid">
-                        <img src="assets/img/project1.jpg" alt="" class="project__img">
-
-                        <div class="project__data">
-                            <h3 class="project__title">Portfolio Website</h3>
-                            <p class="project__description">Created a desktop and mobile responsive personal website. Used HTML5, CSS3, JavaScript, and Adobe Photoshop.
-                            </p>
-                            <a href="https://github.com/danielchang2001/Personal-Website-2021" target="_blank" class="button button--flex button--small project__button">
-                                GitHub
-                                <i class="uil uil-external-link-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Spotify Lyrics -->
-                    <div class="project__content grid">
-                        <img src="assets/img/findlyrics.gif" alt="" class="project__img">
-
-                        <div class="project__data">
-                            <h3 class="project__title">Spotify Lyrics</h3>
-                            <p class="project__description">Search for and choose music. Displays song lyrics. Used React, Node, Spotify API, Web Playback library, Bootstrap.</p>
-                            <a href="https://github.com/danielchang2001/Spotify-Lyrics" target="_blank" class="button button--flex button--small project__button">
-                                GitHub
-                                <i class="uil uil-external-link-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- MoodTrack -->
-                    <div class="project__content grid">
-                        <img src="assets/img/project2.jpg" alt="" class="project__img">
-
-                        <div class="project__data">
-                            <h3 class="project__title">Spotify Mood Track</h3>  
-                            <p class="project__description">Grabs “happiness level" data from songs in a Spotify user’s playlists. Returns a graph displaying change in data over a span of 5 years.</p>
-                            <a href="https://github.com/danielchang2001/MoodTrack" target="_blank" class="button button--flex button--small project__button">
-                                GitHub
-                                <i class="uil uil-external-link-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
         <!-- CONTACT -->
         <section class="contact section" id="contact">
             <h2 class="section__title"><i class="uil uil-message title__icon"></i><br>Contact Me</h2>

@@ -287,7 +287,9 @@ img {
 .home__title {
   font-size: 80px;
   font-weight: var(--font-bold);
-  color: lightslategray;
+  background: -webkit-linear-gradient(-70deg, rgb(83, 87, 101), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .home__subtitle {
