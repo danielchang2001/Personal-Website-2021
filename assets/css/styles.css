@@ -642,7 +642,7 @@ img {
     /* padding-right: 30px; */
     order: 1;
     justify-self: center;
-    opacity: 0;
+    
   }
 
   .footer__container {
@@ -680,7 +680,7 @@ img {
   }
 }
 /* Medium devices */
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 690px) {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
   }
