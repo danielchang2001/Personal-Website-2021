@@ -1,6 +1,6 @@
 # Personal-Website
 
-My updated portfolio website.
+Used HTML, CSS, and a little JS. 
 
 ## Description
 
