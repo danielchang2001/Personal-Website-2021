@@ -39,7 +39,12 @@
                     </li>
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i> Experience
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#courses" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Courses
                         </a>
                     </li>
                     <li class="nav__item">
@@ -125,7 +130,7 @@
                 </div>
                 
                 <div class="about__data">
-                    <p class="about__description">I am currently a fourth year Computer Engineering student with a focus in Systems Programming and also a part time website developer at UCSC. My favorite classes so far have been Data Structures and Algorithms, Operating Systems, and Digital Logic Design. At work I help UCSC faculty and staff build personal and administrative websites. I am familiar working with WCMSs like WordPress and other basic front-end tools like HTML and CSS. I also do some back-end work like migrating website content from one virtual machine to another or writing PHP code. 
+                    <p class="about__description">I am currently a fourth year Computer Engineering student with a focus in Systems Programming and also a part time CMS developer at UCSC. My favorite classes in school have been Data Structures and Algorithms, Operating Systems, and Digital Logic Design. At work I help UCSC faculty and staff build websites primarily using Wordpress and Drupal. I'm always working with HTML and CSS, and also write some PHP code for more customization like generating dynamic page content. I've also done some back-end work like migrating back-end website content such as databases from VMs running CentOS 6 to 7. My main goal is to become a front-end developer, and I am always trying to learn prevalent technologies used in the field such as React, Node, Vue, and more.
                     </p>
                 </div>
             </div>
@@ -136,13 +141,26 @@
             <h2 class="section__title"><i class="uil uil-brackets-curly title__icon"></i><br>Projects</h2>
             <div class="project__container container">
                 <div>
+                    <div class="project__content grid">
+                        <img src="assets/img/sproutlabs.png" alt="" class="project__img">
+
+                        <div class="project__data">
+                            <h3 class="project__title">Sprout Labs (2022)</h3>
+                            <p class="project__description">Created the UI for the cellular device activation flow for a startup sponsoring CSE 115A. Used Vue.js, HTML5, and CSS3.
+                            </p>
+                            <a href="https://docs.google.com/presentation/d/1Xy1bsDFeePL6rGzDegy35Mj1V_s033pEtfRgY3veRpo/edit?usp=sharing" target="_blank" class="button button--flex button--small project__button">
+                                Read More
+                                <i class="uil uil-external-link-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
                     <!-- Website -->
                     <div class="project__content grid">
                         <img src="assets/img/project4.jpg" alt="" class="project__img">
 
                         <div class="project__data">
                             <h3 class="project__title">Canvas Scraper (2022)</h3>
-                            <p class="project__description">Scrapes web data from Canvas to display useful information. Includes grade calculator tool. Used Selenium Python API.
+                            <p class="project__description">Scrapes web data from Canvas to display useful information. Includes grade calculator tool. Used Selenium and Python.
                             </p>
                             <a href="https://www.youtube.com/watch?v=vM7_ztkZ1kw" target="_blank" class="button buttonRed button--flex button--small project__button">
                                 YT Demo
@@ -174,7 +192,7 @@
 
                         <div class="project__data">
                             <h3 class="project__title">Portfolio (2021-2022)</h3>
-                            <p class="project__description">Created this current website. Used HTML5, CSS3, some JavaScript, Adobe Illustrator, and Photoshop.
+                            <p class="project__description">A responsive website created from scratch using HTML, CSS, and JavaScript. Designed graphics in Adobe Photoshop and Illustrator.
                             </p>
                             <a href="https://github.com/danielchang2001/Personal-Website-2021" target="_blank" class="button button--flex button--small project__button">
                                 GitHub
@@ -188,7 +206,8 @@
 
                         <div class="project__data">
                             <h3 class="project__title">Spotify Lyrics (2021)</h3>
-                            <p class="project__description">Searches and displays lyrics for songs on Spotify. Used React, Node, Spotify API, Web Playback, Bootstrap.</p>
+                            <p class="project__description">A web application that allows Spotify users to search, play, and display lyrics for music. Used React, Node.js, and the Spotify Web API.
+                            </p>
                             <a href="https://github.com/danielchang2001/Spotify-Lyrics" target="_blank" class="button button--flex button--small project__button">
                                 GitHub
                                 <i class="uil uil-external-link-alt button__icon"></i>
@@ -201,7 +220,7 @@
 
                         <div class="project__data">
                             <h3 class="project__title">Spotify Scraper (2021)</h3>  
-                            <p class="project__description">Grabs audio analysis data from songs in playlists using Python. Tracks "happiness levels" over a span of 5 yrs.</p>
+                            <p class="project__description">CLI app that returns a graph displaying change in music moods over a span of 5 years. Used Python, Spotify Web API, and Matplotlib.</p>
                             <a href="https://github.com/danielchang2001/MoodTrack" target="_blank" class="button button--flex button--small project__button">
                                 GitHub
                                 <i class="uil uil-external-link-alt button__icon"></i>
@@ -214,121 +233,17 @@
 
         <!-- SKILLS -->
         <section class="skills section" id="skills">
-            <h2 class="section__title"><i class="uil uil-file-alt title__icon"></i> <br>Experience</h2>
+            <h2 class="section__title"><i class="uil uil-file-alt title__icon"></i> <br>Skills</h2>
 
             <div class="skills__container container grid">
                 <!-- LANGUAGES -->
-                <div class="skills__content skills__open">
-                    <div class="skills__header">
-                        <i class="uil uil-books skills__icon"></i>
-
-                        <div>
-                            <h1 class="skills__title">Relevant C.E. Courses</h1>
-                        </div>
-
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-
-                    <div class="skills__list">
-                        <div class="skills__data">
-                            <a target="_blank"href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-100">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">CSE 100/L - Logic Design</h3>
-                                    <span class="skills__number">2022</span>
-                                </div>
-                            </a>
-
-                        </div>
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-130">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">CSE 130 - Operating Systems</h3>
-                                    <span class="skills__number">2022</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/ECE-Electrical-and-Computer-Engineering/Upper-Division/ECE-101">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">ECE 101/L - Intro Electronic Circuits</h3>
-                                <span class="skills__number">2022</span>
-                            </div>
-                        </a>
-                        </div>     
-                        <div class="skills__data">
-                        <a target="_blank" href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-101">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSE 101 - Data Structures & Algorithms</h3>
-                                <span class="skills__number">2021</span>
-                            </div>
-                        </a>
-
-                        </div>          
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/2019-2020/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-120">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSE 120 - Computer Architecture</h3>
-                                <span class="skills__number">2021</span>
-                            </div>
-                            </a>
-                        </div>    
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-80N">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSE 80N - Intro to Networking</h3>
-                                <span class="skills__number">2021</span>
-                            </div>
-                        </a>
-                        </div>     
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-13S">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSE 13S - Comp Sys and C Prog</h3>
-                                <span class="skills__number">2020</span>
-                            </div>
-                        </a>
-                        </div>     
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/CMPM-Computational-Media/Lower-Division/CMPM-80K">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CMPM 80K - Foundations of Game Design</h3>
-                                <span class="skills__number">2020</span>
-                            </div>
-                            </a>
-                        </div>   
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-12">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSE 12/L - Comp Sys and Assembly Lang</h3>
-                                <span class="skills__number">2020</span>
-                            </div>
-                        </a>
-                        </div>     
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-30">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSE 30 - Python 2</h3>
-                                <span class="skills__number">2020</span>
-                            </div>
-                        </a>
-                        </div>     
-                        <div class="skills__data">
-                            <a target="_blank" href="https://catalog.ucsc.edu/en/2019-2020/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-20">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">CSE 20 - Python 1</h3>
-                                <span class="skills__number">2019</span>
-                            </div>
-                        </a>
-                        </div>     
-                    </div>
-                </div>
                 <!-- FRONTEND SKILL -->
-                <div class="skills__content skills__close">
+                <div class="skills__content skills__open">
                     <div class="skills__header">
                         <i class="uil uil-arrow skills__icon"></i>
 
                         <div>
-                            <h1 class="skills__title">Languages and Tools</h1>
+                            <h1 class="skills__title">Languages</h1>
                         </div>
 
                         <i class="uil uil-angle-down skills__arrow"></i>
@@ -337,73 +252,17 @@
                     <div class="skills__list">
                         <div class="skills__data">
                             <div class="skills__titles">
-                                <h3 class="skills__name">Python</h3>
-                                <span class="skills__number">4 yrs</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">C</h3>
-                                <span class="skills__number">4 yrs</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">PHP</h3>
-                                <span class="skills__number">1 yr</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Verilog</h3>
-                                <span class="skills__number">1 yr</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">JavaScript</h3>
-                                <span class="skills__number">1 yr</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Git/GitHub</h3>
-                                <span class="skills__number">4 yrs</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">HTML, CSS, REST, JSON</h3>
-                                <span class="skills__number"> 3 yrs</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Database Systems & SQL</h3>
-                                <span class="skills__number"> 1 yr</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Unix OS</h3>
-                                <span class="skills__number"> 1 yr</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">React & Node JS</h3>
-                                <span class="skills__number"> 1 yr</span>
+                                <h3 class="skills__name">· Python&nbsp&nbsp&nbsp· JavaScript&nbsp&nbsp&nbsp· C&nbsp&nbsp&nbsp· PHP&nbsp&nbsp&nbsp· Golang</h3>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- BACKEND SKILL -->
-                <div class="skills__content skills__close">
+                <div class="skills__content skills__open">
                     <div class="skills__header">
                         <i class="uil uil-palette skills__icon"></i>
 
                         <div>
-                            <h1 class="skills__title">Design</h1>
+                            <h1 class="skills__title">Frontend</h1>
                         </div>
 
                         <i class="uil uil-angle-down skills__arrow"></i>
@@ -412,33 +271,166 @@
                     <div class="skills__list">
                         <div class="skills__data">
                             <div class="skills__titles">
-                                <h3 class="skills__name">Adobe After Effects</h3>
-                                <span class="skills__number">4 yrs</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Adobe Photoshop</h3>
-                                <span class="skills__number">4 yrs</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Adobe Illustrator</h3>
-                                <span class="skills__number">3 yrs</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
-                                <h3 class="skills__name">Maxon Cinema 4D</h3>
-                                <span class="skills__number">4 yrs</span>
+                                <h3 class="skills__name">· HTML5&nbsp&nbsp&nbsp· CSS3&nbsp&nbsp&nbsp· Vue.js&nbsp&nbsp&nbsp· Vuetify&nbsp&nbsp&nbsp· React&nbsp&nbsp&nbsp· Webpack&nbsp&nbsp&nbsp·  Bootstrap</h3>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-server skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Backend</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">· Node.js&nbsp&nbsp&nbsp· PHP&nbsp&nbsp&nbsp· Golang&nbsp&nbsp&nbsp· REST API</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-database skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Databases</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">· MySQL&nbsp&nbsp&nbsp· Firebase&nbsp&nbsp&nbsp· MariaDB</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-draggabledots skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Other</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">· Git&nbsp&nbsp&nbsp· Agile&nbsp&nbsp&nbsp· REST&nbsp&nbsp&nbsp· xUnit&nbsp&nbsp&nbsp· Selenium&nbsp&nbsp&nbsp· Docker&nbsp&nbsp&nbsp· Wordpress&nbsp&nbsp&nbsp· Drupal&nbsp&nbsp&nbsp<br>· Photoshop</h3>
+                            </div>
+                        </div>
+                    </div>             
+                </div>
             </div>
         </section>
+        <section class="contact section" id="courses">
+            <h2 class="section__title"><i class="uil uil-books title__icon"></i><br>Relevant Coursework</h2>
 
+            <div class="contact__container container grid">
+                <div class="skills__list">
+                    <div class="skills__data">
+                        <a target="_blank"href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-115A">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSE 115A - Intro to Software Engineering </h3>
+                                <span class="skills__number">2022</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="skills__data">
+                        <a target="_blank"href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-100">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSE 100/L - Logic Design</h3>
+                                <span class="skills__number">2022</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-130">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSE 130 - Operating Systems</h3>
+                                <span class="skills__number">2022</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/ECE-Electrical-and-Computer-Engineering/Upper-Division/ECE-101">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">ECE 101/L - Intro Electronic Circuits</h3>
+                            <span class="skills__number">2022</span>
+                        </div>
+                    </a>
+                    </div>     
+                    <div class="skills__data">
+                    <a target="_blank" href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-101">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSE 101 - Data Structures & Algorithms</h3>
+                            <span class="skills__number">2021</span>
+                        </div>
+                    </a>
+
+                    </div>          
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/2019-2020/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Upper-Division/CSE-120">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSE 120 - Computer Architecture</h3>
+                            <span class="skills__number">2021</span>
+                        </div>
+                        </a>
+                    </div>    
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-80N">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSE 80N - Intro to Networking</h3>
+                            <span class="skills__number">2021</span>
+                        </div>
+                    </a>
+                    </div>     
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-13S">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSE 13S - Comp Sys and C Prog</h3>
+                            <span class="skills__number">2020</span>
+                        </div>
+                    </a>
+                    </div>     
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/Current/General-Catalog/Courses/CMPM-Computational-Media/Lower-Division/CMPM-80K">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CMPM 80K - Foundations of Game Design</h3>
+                            <span class="skills__number">2020</span>
+                        </div>
+                        </a>
+                    </div>   
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-12">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSE 12/L - Comp Sys and Assembly Lang</h3>
+                            <span class="skills__number">2020</span>
+                        </div>
+                    </a>
+                    </div>     
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/en/Current/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-30">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSE 30 - Python 2</h3>
+                            <span class="skills__number">2020</span>
+                        </div>
+                    </a>
+                    </div>     
+                    <div class="skills__data">
+                        <a target="_blank" href="https://catalog.ucsc.edu/en/2019-2020/General-Catalog/Courses/CSE-Computer-Science-and-Engineering/Lower-Division/CSE-20">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSE 20 - Python 1</h3>
+                            <span class="skills__number">2019</span>
+                        </div>
+                    </a>
+                    </div>     
+                </div>
+            </div>
+        </section>
         <!-- CONTACT -->
         <section class="contact section" id="contact">
             <h2 class="section__title"><i class="uil uil-message title__icon"></i><br>Contact Me</h2>
