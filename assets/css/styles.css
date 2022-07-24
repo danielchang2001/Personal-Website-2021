@@ -433,11 +433,22 @@ img {
   margin-bottom: var(--mb-1);
 }
 
-/* .skills__data:hover {
-    transform: scale(1.02);
-    transition: .01s;
-    cursor: pointer;
-} */
+.skills__data:hover {
+    /* cursor: pointer; */
+}
+
+.course__data {
+  background: whitesmoke;
+  border: 2px solid var(--title-color);
+  line-height: 50px;
+  border-radius: 10px;
+  margin-bottom: var(--mb-1);
+}
+
+.course__data:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
 
 .skills__container {
   row-gap: 0;
@@ -642,7 +653,7 @@ img {
     /* padding-right: 30px; */
     order: 1;
     justify-self: center;
-    opacity: 0;
+    display: none;
   }
 
   .footer__container {
@@ -663,7 +674,7 @@ img {
     /* padding-right: 30px; */
     order: 1;
     justify-self: center;
-    opacity: 0;
+    display: none;
   }
 
   .home__social {
@@ -695,6 +706,7 @@ img {
     order: 1;
     justify-self: center;
     opacity: 1;
+    display: block;
   }
 
   .home__social {
